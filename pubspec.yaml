@@ -1,0 +1,72 @@
+name: fc_dashboard
+description: The FC dashboard is an intelligent platform that gathers information including issues, latest activity on repositories, maintainers, level of access, trigger to build and deploy to pub.dev, and more for all Admins as well as maintainers with different levels of permission..
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # icons
+  cupertino_icons: ^1.0.2
+  ionicons: ^0.1.2
+
+  # fonts
+  google_fonts: ^2.3.1
+
+  # intl
+  intl: ^0.17.0
+
+  # images
+  cached_network_image: ^3.2.0
+
+  # opening urls
+  url_launcher: ^6.0.20
+
+  # for scrolling rows and columns
+  flextras: ^0.0.2
+
+  # Navigation and Deep Linking
+  go_router: ^3.0.1
+
+  # riverpod
+  flutter_riverpod: ^1.0.3
+
+  # Firebase
+  firebase_core: ^1.13.1
+
+  # Authentication
+  firebase_auth: ^3.3.11
+
+  # github
+  github: ^9.1.1
+  github_sign_in: ^0.0.5-dev.4
+
+  # Navigation Animations
+  animations: ^2.0.2
+
+  # splash screen
+  flutter_native_splash: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons_maker: ^0.10.2
+  flutter_app_name: ^0.1.1
+
+flutter_app_name:
+  name: "Flutter Community"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - icons/
