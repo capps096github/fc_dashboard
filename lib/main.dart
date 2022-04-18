@@ -7,7 +7,6 @@ void main() {
     const ProviderScope(
       child: RootRestorationScope(
         restorationId: fcId,
-
         child: FirebaseConnect(),
       ),
     ),
