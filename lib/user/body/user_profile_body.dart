@@ -15,17 +15,15 @@ class UserProfileBody extends StatelessWidget {
           expandedHeight: sliverAppBarHeight,
           pinned: true,
           automaticallyImplyLeading: false,
-          flexibleSpace: FlexibleSpaceBar(
-            title: Text(
-              'Flutter Community',
-              style: GoogleFonts.spartan(
-                fontSize: 25,
-                fontWeight: FontWeight.w700,
-                color: fcWhite,
-              ),
+          title: Text(
+            'Flutter Community',
+            style: GoogleFonts.spartan(
+              fontSize: 25,
+              fontWeight: FontWeight.w700,
+              color: fcWhite,
             ),
-            centerTitle: true,
           ),
+          centerTitle: true,
         ),
         UserProfileDetails(user: user),
       ],

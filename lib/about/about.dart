@@ -136,8 +136,8 @@ class AboutScreen extends ConsumerWidget {
                 ),
                 children: <TextSpan>[
                   linkTextSpan(
-                    text: 'Github',
-                    link: "https://github.com/fluttercommunity",
+                    text: 'Github (capps096github/fc_dashboard)',
+                    link: "https://github.com/capps096github/fc_dashboard",
                   ),
                   const TextSpan(
                     text:

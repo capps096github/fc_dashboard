@@ -24,9 +24,9 @@ class RepoDashboard extends StatelessWidget {
           child: GridView.count(
             shrinkWrap: true,
             crossAxisCount: isMobile
-                ? 2
+                ? 1
                 : isTablet
-                    ? 3
+                    ? 2
                     : 4,
             crossAxisSpacing: 5,
             mainAxisSpacing: 5,

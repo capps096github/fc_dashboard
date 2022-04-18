@@ -59,7 +59,7 @@ class DashboardCard extends StatelessWidget {
                     child: Icon(
                       icon,
                       size: 50,
-                      color: fcWhite.withOpacity(.5),
+                      color: fcWhite.withOpacity(.8),
                     ),
                   ),
                 ),
