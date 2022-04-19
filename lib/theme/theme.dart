@@ -51,9 +51,9 @@ ThemeData _buildfcTheme() {
     ),
     //* -- tooltip
     tooltipTheme: TooltipThemeData(
-      textStyle: const TextStyle(color: fcColor),
+      textStyle: const TextStyle(color: fcWhite),
       decoration: BoxDecoration(
-        color: fcWhite,
+        color: fcPink,
         borderRadius: BorderRadius.circular(6),
       ),
     ),

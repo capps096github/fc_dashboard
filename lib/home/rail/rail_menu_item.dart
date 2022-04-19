@@ -64,9 +64,9 @@ class RailMenuItem extends ConsumerWidget {
       margin: const EdgeInsets.symmetric(vertical: 4, horizontal: 4),
       child: Tooltip(
         message: railItem.tooltip,
-        textStyle: TextStyle(color: primary),
+        textStyle: TextStyle(color: onPrimary),
         decoration: BoxDecoration(
-          color: secondary,
+          color: fcPink,
           borderRadius: BorderRadius.circular(4),
         ),
         child: AnimatedSwitcher(
