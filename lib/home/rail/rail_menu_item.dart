@@ -42,7 +42,6 @@ class RailMenuItem extends ConsumerWidget {
     final onPrimary = colorScheme.onPrimary;
     final primary = colorScheme.primary;
     // secondary
-    final secondary = colorScheme.secondary;
 
     final iconColor = (isSelected ? primary : onPrimary);
     final backgroundColor = backColor ?? (isSelected ? onPrimary : primary);
