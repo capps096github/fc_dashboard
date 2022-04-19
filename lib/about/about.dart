@@ -45,8 +45,15 @@ class AboutScreen extends ConsumerWidget {
                     link: xephasTwitter,
                   ),
                   const TextSpan(
+                    text: ', the CEO and Founder of ',
+                  ),
+                  linkTextSpan(
+                    text: 'THE C APPS TEAM.',
+                    link: cappsTwitter,
+                  ),
+                  const TextSpan(
                     text:
-                        ', and he developed it during his participation in the ',
+                        'Cephas developed this during his participation in the ',
                   ),
                   linkTextSpan(
                     text: 'Google Summer of Code 2022 (GSoC 2022) ',
@@ -99,7 +106,7 @@ class AboutScreen extends ConsumerWidget {
                   ),
                   const TextSpan(
                     text:
-                        "The application authenticates the user using Github OAuth and then displays the repositories that are in the ",
+                        "It does this by first authenticating the user using Github OAuth and then displays the repositories that are in the ",
                   ),
                   linkTextSpan(
                     text: "Flutter Community Repo",
